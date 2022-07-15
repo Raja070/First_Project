@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeClass;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -17,6 +18,7 @@ public class FB_Login {
 	Actions act;
   @Test
   public void f() {
+	  driver.findElement(By.id("email")).sendKeys("Narmisha");
   }
   @BeforeClass
   public void beforeClass() {
