@@ -19,6 +19,7 @@ public class FB_Login {
   @Test
   public void f() {
 	  driver.findElement(By.id("email")).sendKeys("Narmisha");
+	  driver.findElement(By.id("pass")).sendKeys("kavya");
   }
   @BeforeClass
   public void beforeClass() {
